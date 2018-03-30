@@ -1,0 +1,157 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M511.963 697.846l-438.813-480.466c-16.73-16.772-43.915-16.772-60.602 0-16.73 16.772-16.73 43.958 0 60.773l466.98 511.237c8.92 8.92 20.827 12.761 32.435 12.163 11.694 0.597 23.558-3.244 32.478-12.163l466.98-511.237c16.772-16.815 16.772-44.001 0-60.773-16.73-16.772-43.83-16.772-60.602 0l-438.856 480.466z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "down"
+        ],
+        "defaultCode": 59650,
+        "grid": 0
+      },
+      "attrs": [],
+      "properties": {
+        "id": 5,
+        "order": 641,
+        "ligatures": "",
+        "prevSize": 32,
+        "code": 59651,
+        "name": "down"
+      },
+      "setIdx": 11,
+      "setId": 2,
+      "iconIdx": 5
+    },
+    {
+      "icon": {
+        "paths": [
+          "M308.567 511.963l480.466-438.813c16.772-16.73 16.772-43.915 0-60.602-16.772-16.73-43.958-16.73-60.773 0l-511.237 466.98c-8.92 8.92-12.761 20.827-12.163 32.435-0.597 11.694 3.244 23.558 12.163 32.478l511.237 466.98c16.815 16.772 44.001 16.772 60.773 0 16.772-16.73 16.772-43.83 0-60.602l-480.466-438.856z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "left"
+        ],
+        "defaultCode": 59651,
+        "grid": 0
+      },
+      "attrs": [],
+      "properties": {
+        "id": 6,
+        "order": 638,
+        "ligatures": "",
+        "prevSize": 32,
+        "code": 59652,
+        "name": "left"
+      },
+      "setIdx": 11,
+      "setId": 2,
+      "iconIdx": 6
+    },
+    {
+      "icon": {
+        "paths": [
+          "M697.846 511.963l-480.466-438.813c-16.772-16.73-16.772-43.915 0-60.602 16.772-16.73 43.958-16.73 60.773 0l511.237 466.98c8.92 8.92 12.761 20.827 12.163 32.435 0.597 11.694-3.244 23.558-12.163 32.478l-511.237 466.98c-16.815 16.772-44.001 16.772-60.773 0-16.772-16.73-16.772-43.83 0-60.602l480.466-438.856z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "right"
+        ],
+        "defaultCode": 59652,
+        "grid": 0
+      },
+      "attrs": [],
+      "properties": {
+        "id": 7,
+        "order": 639,
+        "ligatures": "",
+        "prevSize": 32,
+        "code": 59653,
+        "name": "right"
+      },
+      "setIdx": 11,
+      "setId": 2,
+      "iconIdx": 7
+    },
+    {
+      "icon": {
+        "paths": [
+          "M511.963 308.567l-438.813 480.466c-16.73 16.772-43.915 16.772-60.602 0-16.73-16.772-16.73-43.958 0-60.773l466.98-511.237c8.92-8.92 20.827-12.761 32.435-12.163 11.694-0.597 23.558 3.244 32.478 12.163l466.98 511.237c16.772 16.815 16.772 44.001 0 60.773-16.73 16.772-43.83 16.772-60.602 0l-438.856-480.466z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "up"
+        ],
+        "defaultCode": 59653,
+        "grid": 0
+      },
+      "attrs": [],
+      "properties": {
+        "id": 8,
+        "order": 640,
+        "ligatures": "",
+        "prevSize": 32,
+        "code": 59654,
+        "name": "up"
+      },
+      "setIdx": 11,
+      "setId": 2,
+      "iconIdx": 8
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "cssVars": true,
+      "cssVarsFormat": "less",
+      "autoHost": true,
+      "showMetrics": true,
+      "showMetadata": false,
+      "showVersion": false,
+      "showSelector": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215
+    },
+    "historySize": 50,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "Y2I2YWQ5YjIzMWVkODY4NzdiZDgyOTUzMGZhNzVlZDkjMSMxNTIxNDQ1MjA5IyMj"
+    }
+  }
+}
