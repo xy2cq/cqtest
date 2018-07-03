@@ -10,7 +10,10 @@ module.exports = {
       }
     },
     "global": {
-      "Vue": "vue"
+      "Vue": "vue",
+      "HeyUI": 'heyui',
+      "$": 'jquery',
+      "Utils": './src/js/common/utils',
     },
     "devServer": {
       "historyApiFallback":true

@@ -5,8 +5,12 @@ const cqtest = require("cqtest");
 import App from './index.vue';
 import VueRouter from 'vue-router';
 import routerConfig from './config/router-config';
+import heyuiConfig from './config/heyui-config';
+import './js/common/filters';
+
 const router = routerConfig();
 Vue.use(VueRouter);
+Vue.use(HeyUI);
 
 const app = new Vue({	
   router,

@@ -11,13 +11,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "vue": "2.3.4",    
-    "vue-router": "^2.5.3",
-    "vuex": "^2.3.1",
+    "jquery": "^3.3.1",
     "manba": "^1.2.0",
+    "vue": "2.3.4",
+    "vue-router": "^2.5.3",
+    "vuex": "^2.3.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "readmeFilename": "README.md",
   "scripts": {
     "build": "hey build"

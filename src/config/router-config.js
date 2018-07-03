@@ -1,7 +1,8 @@
 import VueRouter from 'vue-router';
-const Welcome = resolve => require.ensure([], require => require('../components/welcome/index.vue'), 'components');
+const Welcome = resolve => require.ensure([], require => require('../components/welcome/welcome.vue'), 'components');
 const DataPicker = resolve => require.ensure([], require => require('../components/time/dataPicker.vue'), 'components');
-
+const Test = resolve => require.ensure([], require => require('../components/test/test.vue'), 'components');
+const LocalPicker = resolve => require.ensure([], require => require('../components/localpicker/index.vue'), 'components');
 const initRouter = ()=>{
   const routerParam = {
     mode: 'history',
@@ -13,6 +14,14 @@ const initRouter = ()=>{
       path: '/dataPicker',
       name: 'dataPicker',
       component: DataPicker
+    },{
+      path: '/test',
+      name: 'test',
+      component: Test
+    },{
+      path: '/localpicker',
+      name: 'localPicker',
+      component: LocalPicker
     }]
   };
 
