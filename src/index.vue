@@ -15,10 +15,10 @@
 	</div>
 </template>
 <script>
-import cqtest from "cqtest";
+// import cqtest from "cqtest";
 export default {
 	mounted() {		
-		cqtest.printMsg();
+		//cqtest.printMsg();
 	}
 }
 </script>

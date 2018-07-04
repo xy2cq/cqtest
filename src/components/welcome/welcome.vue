@@ -36,18 +36,18 @@
 </style>
 <template>
 	<div class="navigation-div">
-		<div v-for="(item,index) in navigation" :class="['list'+index]" :id="item.key">
+		<div v-for="(item,index) in navigation" :class="['list'+index]" :id="item.key" :key="index">
 				{{item.name}}
 		</div>
 		<ul class="right-navigation">
-			<li v-for="item in navigation" @click="goToList(item.key)" :class="{'active':navigationSelected==item.key}">
+			<li v-for="item in navigation" @click="goToList(item.key)" :class="{'active':navigationSelected==item.key}" :key="item.key">
 				{{item.name}}
 			</li>
 		</ul>
 	</div>
 </template>
 <script>
-import cqtest from "cqtest";
+// import cqtest from "cqtest";
 import ScrollIntoView from '../../js/plugin/scrollIntoView';
 export default {
 	data(){

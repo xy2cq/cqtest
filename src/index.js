@@ -1,7 +1,7 @@
 //import cqtest from 'cqtest';
 //let { stat, exists, readFile } = require('fs');
 import Vue from 'vue';
-const cqtest = require("cqtest");
+// const cqtest = require("cqtest");
 import App from './index.vue';
 import VueRouter from 'vue-router';
 import routerConfig from './config/router-config';
