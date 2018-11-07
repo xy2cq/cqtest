@@ -3,6 +3,7 @@ const Welcome = resolve => require.ensure([], require => require('../components/
 const DataPicker = resolve => require.ensure([], require => require('../components/time/dataPicker.vue'), 'components');
 const Test = resolve => require.ensure([], require => require('../components/test/test.vue'), 'components');
 const LocalPicker = resolve => require.ensure([], require => require('../components/localpicker/index.vue'), 'components');
+const rxjsDemo = resolve => require.ensure([], require => require('../components/rxjsdemo/index.vue'), 'components');
 const initRouter = ()=>{
   const routerParam = {
     mode: 'history',
@@ -22,6 +23,10 @@ const initRouter = ()=>{
       path: '/localpicker',
       name: 'localPicker',
       component: LocalPicker
+    }, {
+      path: '/rxjs',
+      name: 'rxjsDemo',
+      component: rxjsDemo
     }]
   };
 
