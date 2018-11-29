@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Test from '../welcome';
+import Test from '../test';
 
 export default {
   data(){

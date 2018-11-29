@@ -659,3 +659,39 @@ input[type=text], input[type=password], input[type=search], textarea {
     border-color: #fb0b14;
     color: #ffffff;
 }
+
+.h-menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  font-size: 13px;
+  position: relative;
+  line-height: 1;
+}
+.h-menu-white {
+  background: #fff;
+}
+.h-menu-white .h-menu-li {
+  position: relative;
+}
+.h-menu-white .h-menu-li .h-menu-li-selected {
+  background-color: #f8f8f8;
+  color: #FB151E;
+}
+.h-menu-white .h-menu-li .h-menu-show:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  background: #FB151E;
+}
+.h-menu-show {
+  position: relative;
+  padding: 15px 26px;
+  cursor: pointer;
+  transition: .2s;
+}
